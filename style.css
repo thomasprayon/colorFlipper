@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: red;
+    color: #2b333d;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar {
+    background-color: floralwhite;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.center {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.show-color {
+    background-color: floralwhite;
+    margin: 3rem;
+    padding: 3rem;
+    width: 25rem;
+    text-align: center;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 35vw;
+}
+.btn {
+    font-family: inherit;
+    font-size: 20px;
+    padding: 1rem;
+    background-color: floralwhite;
+    outline: 0;
+    cursor: pointer;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+        rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+        rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.btn:active {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+        rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+        rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    transform: translateY(4px);
+}
+
+.btn-change-color {
+    font-weight: bolder;
+}
+#changeColor {
+    text-transform: capitalize;
+}
+.active {
+    color: blue;
+}
+.btn:hover {
+    opacity: 0.9;
+}
